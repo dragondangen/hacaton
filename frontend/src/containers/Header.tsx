@@ -1,5 +1,5 @@
 const navItems = [
-  { label: "Планировщик", href: "/planer" },
+  { label: "Планировщик", href: "/planner" },
   { label: "Блог", href: "/blog" },
   { label: "Чат-бот", href: "/chatbot" },
   { label: "Контакты", href: "/contact" },
@@ -11,7 +11,7 @@ export default function Header() {
       <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
-            <span className="text-white text-2xl font-semibold">N-Planer</span>
+            <span className="text-white text-2xl font-semibold">N-Planner</span>
           </a>
         </div>
 

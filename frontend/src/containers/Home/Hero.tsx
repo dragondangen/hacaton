@@ -26,7 +26,7 @@ export default function Hero() {
           </p>
           <div className="flex space-x-4">
             <a
-              href="/planer"
+              href="/planner"
               className="rounded-md bg-green-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow hover:bg-green-400"
             >
               Перейти в планировщик
