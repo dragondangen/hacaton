@@ -5,6 +5,8 @@ import Footer from "./containers/Footer";
 import Planner from "./containers/Home/Planner";
 import { Dashboard, LoginPage, RegisterPage } from "./pages/Auth";
 import { FloorplanAnalyzer } from "./pages/FloorplanAnalyzer";
+import { Contact } from "lucide-react";
+import Contacts from "./pages/contact";
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/floorplan-analyzer" element={<FloorplanAnalyzer />} />
+            <Route path="/contact" element={<Contacts />} />
           </Routes>
         </main>
 
